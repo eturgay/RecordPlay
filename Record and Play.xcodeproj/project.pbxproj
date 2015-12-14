@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18538B371C1F3A2D005DB3BA /* AudioOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 18538B361C1F3A2D005DB3BA /* AudioOperations.m */; };
 		187556EB1C1F356E00175743 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187556EA1C1F356E00175743 /* main.m */; };
 		187556EE1C1F356E00175743 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187556ED1C1F356E00175743 /* AppDelegate.m */; };
 		187556F11C1F356E00175743 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187556F01C1F356E00175743 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18538B351C1F3A2D005DB3BA /* AudioOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioOperations.h; sourceTree = "<group>"; };
+		18538B361C1F3A2D005DB3BA /* AudioOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AudioOperations.m; sourceTree = "<group>"; };
 		187556E61C1F356E00175743 /* Record and Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Record and Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		187556EA1C1F356E00175743 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		187556EC1C1F356E00175743 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -103,6 +106,8 @@
 		187556E81C1F356E00175743 /* Record and Play */ = {
 			isa = PBXGroup;
 			children = (
+				18538B351C1F3A2D005DB3BA /* AudioOperations.h */,
+				18538B361C1F3A2D005DB3BA /* AudioOperations.m */,
 				187556EC1C1F356E00175743 /* AppDelegate.h */,
 				187556ED1C1F356E00175743 /* AppDelegate.m */,
 				187556EF1C1F356E00175743 /* ViewController.h */,
@@ -275,6 +280,7 @@
 			files = (
 				187556F11C1F356E00175743 /* ViewController.m in Sources */,
 				187556EE1C1F356E00175743 /* AppDelegate.m in Sources */,
+				18538B371C1F3A2D005DB3BA /* AudioOperations.m in Sources */,
 				187556F71C1F356E00175743 /* Record_and_Play.xcdatamodeld in Sources */,
 				187556EB1C1F356E00175743 /* main.m in Sources */,
 			);
@@ -500,6 +506,7 @@
 				187557181C1F356E00175743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		187557191C1F356E00175743 /* Build configuration list for PBXNativeTarget "Record and PlayTests" */ = {
 			isa = XCConfigurationList;
@@ -508,6 +515,7 @@
 				1875571B1C1F356E00175743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1875571C1C1F356E00175743 /* Build configuration list for PBXNativeTarget "Record and PlayUITests" */ = {
 			isa = XCConfigurationList;
@@ -516,6 +524,7 @@
 				1875571E1C1F356E00175743 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

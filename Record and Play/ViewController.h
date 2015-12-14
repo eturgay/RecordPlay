@@ -10,6 +10,12 @@
 
 @interface ViewController : UIViewController
 
+- (IBAction)Record:(id)sender;
+- (IBAction)Play:(id)sender;
+- (IBAction)Stop:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *btnRecord;
+@property (weak, nonatomic) IBOutlet UIButton *btnPlay;
+@property (weak, nonatomic) IBOutlet UIButton *btnStop;
 
 @end
 
