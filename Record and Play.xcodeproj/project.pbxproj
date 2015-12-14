@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		187556EB1C1F356E00175743 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187556EA1C1F356E00175743 /* main.m */; };
+		187556EE1C1F356E00175743 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 187556ED1C1F356E00175743 /* AppDelegate.m */; };
+		187556F11C1F356E00175743 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187556F01C1F356E00175743 /* ViewController.m */; };
+		187556F41C1F356E00175743 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187556F21C1F356E00175743 /* Main.storyboard */; };
+		187556F71C1F356E00175743 /* Record_and_Play.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 187556F51C1F356E00175743 /* Record_and_Play.xcdatamodeld */; };
+		187556F91C1F356E00175743 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187556F81C1F356E00175743 /* Assets.xcassets */; };
+		187556FC1C1F356E00175743 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187556FA1C1F356E00175743 /* LaunchScreen.storyboard */; };
+		187557071C1F356E00175743 /* Record_and_PlayTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187557061C1F356E00175743 /* Record_and_PlayTests.m */; };
+		187557121C1F356E00175743 /* Record_and_PlayUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 187557111C1F356E00175743 /* Record_and_PlayUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		187557031C1F356E00175743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187556DE1C1F356D00175743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187556E51C1F356E00175743;
+			remoteInfo = "Record and Play";
+		};
+		1875570E1C1F356E00175743 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 187556DE1C1F356D00175743 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 187556E51C1F356E00175743;
+			remoteInfo = "Record and Play";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		187556E61C1F356E00175743 /* Record and Play.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Record and Play.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187556EA1C1F356E00175743 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187556EC1C1F356E00175743 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		187556ED1C1F356E00175743 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187556EF1C1F356E00175743 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		187556F01C1F356E00175743 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		187556F31C1F356E00175743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		187556F61C1F356E00175743 /* Record_and_Play.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Record_and_Play.xcdatamodel; sourceTree = "<group>"; };
+		187556F81C1F356E00175743 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187556FB1C1F356E00175743 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		187556FD1C1F356E00175743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187557021C1F356E00175743 /* Record and PlayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Record and PlayTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187557061C1F356E00175743 /* Record_and_PlayTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Record_and_PlayTests.m; sourceTree = "<group>"; };
+		187557081C1F356E00175743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1875570D1C1F356E00175743 /* Record and PlayUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Record and PlayUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		187557111C1F356E00175743 /* Record_and_PlayUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Record_and_PlayUITests.m; sourceTree = "<group>"; };
+		187557131C1F356E00175743 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		187556E31C1F356E00175743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187556FF1C1F356E00175743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1875570A1C1F356E00175743 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		187556DD1C1F356D00175743 = {
+			isa = PBXGroup;
+			children = (
+				187556E81C1F356E00175743 /* Record and Play */,
+				187557051C1F356E00175743 /* Record and PlayTests */,
+				187557101C1F356E00175743 /* Record and PlayUITests */,
+				187556E71C1F356E00175743 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		187556E71C1F356E00175743 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				187556E61C1F356E00175743 /* Record and Play.app */,
+				187557021C1F356E00175743 /* Record and PlayTests.xctest */,
+				1875570D1C1F356E00175743 /* Record and PlayUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		187556E81C1F356E00175743 /* Record and Play */ = {
+			isa = PBXGroup;
+			children = (
+				187556EC1C1F356E00175743 /* AppDelegate.h */,
+				187556ED1C1F356E00175743 /* AppDelegate.m */,
+				187556EF1C1F356E00175743 /* ViewController.h */,
+				187556F01C1F356E00175743 /* ViewController.m */,
+				187556F21C1F356E00175743 /* Main.storyboard */,
+				187556F81C1F356E00175743 /* Assets.xcassets */,
+				187556FA1C1F356E00175743 /* LaunchScreen.storyboard */,
+				187556FD1C1F356E00175743 /* Info.plist */,
+				187556F51C1F356E00175743 /* Record_and_Play.xcdatamodeld */,
+				187556E91C1F356E00175743 /* Supporting Files */,
+			);
+			path = "Record and Play";
+			sourceTree = "<group>";
+		};
+		187556E91C1F356E00175743 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				187556EA1C1F356E00175743 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		187557051C1F356E00175743 /* Record and PlayTests */ = {
+			isa = PBXGroup;
+			children = (
+				187557061C1F356E00175743 /* Record_and_PlayTests.m */,
+				187557081C1F356E00175743 /* Info.plist */,
+			);
+			path = "Record and PlayTests";
+			sourceTree = "<group>";
+		};
+		187557101C1F356E00175743 /* Record and PlayUITests */ = {
+			isa = PBXGroup;
+			children = (
+				187557111C1F356E00175743 /* Record_and_PlayUITests.m */,
+				187557131C1F356E00175743 /* Info.plist */,
+			);
+			path = "Record and PlayUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		187556E51C1F356E00175743 /* Record and Play */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187557161C1F356E00175743 /* Build configuration list for PBXNativeTarget "Record and Play" */;
+			buildPhases = (
+				187556E21C1F356E00175743 /* Sources */,
+				187556E31C1F356E00175743 /* Frameworks */,
+				187556E41C1F356E00175743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Record and Play";
+			productName = "Record and Play";
+			productReference = 187556E61C1F356E00175743 /* Record and Play.app */;
+			productType = "com.apple.product-type.application";
+		};
+		187557011C1F356E00175743 /* Record and PlayTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187557191C1F356E00175743 /* Build configuration list for PBXNativeTarget "Record and PlayTests" */;
+			buildPhases = (
+				187556FE1C1F356E00175743 /* Sources */,
+				187556FF1C1F356E00175743 /* Frameworks */,
+				187557001C1F356E00175743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				187557041C1F356E00175743 /* PBXTargetDependency */,
+			);
+			name = "Record and PlayTests";
+			productName = "Record and PlayTests";
+			productReference = 187557021C1F356E00175743 /* Record and PlayTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1875570C1C1F356E00175743 /* Record and PlayUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1875571C1C1F356E00175743 /* Build configuration list for PBXNativeTarget "Record and PlayUITests" */;
+			buildPhases = (
+				187557091C1F356E00175743 /* Sources */,
+				1875570A1C1F356E00175743 /* Frameworks */,
+				1875570B1C1F356E00175743 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1875570F1C1F356E00175743 /* PBXTargetDependency */,
+			);
+			name = "Record and PlayUITests";
+			productName = "Record and PlayUITests";
+			productReference = 1875570D1C1F356E00175743 /* Record and PlayUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		187556DE1C1F356D00175743 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Visne Software";
+				TargetAttributes = {
+					187556E51C1F356E00175743 = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					187557011C1F356E00175743 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 187556E51C1F356E00175743;
+					};
+					1875570C1C1F356E00175743 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 187556E51C1F356E00175743;
+					};
+				};
+			};
+			buildConfigurationList = 187556E11C1F356D00175743 /* Build configuration list for PBXProject "Record and Play" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 187556DD1C1F356D00175743;
+			productRefGroup = 187556E71C1F356E00175743 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				187556E51C1F356E00175743 /* Record and Play */,
+				187557011C1F356E00175743 /* Record and PlayTests */,
+				1875570C1C1F356E00175743 /* Record and PlayUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		187556E41C1F356E00175743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187556FC1C1F356E00175743 /* LaunchScreen.storyboard in Resources */,
+				187556F91C1F356E00175743 /* Assets.xcassets in Resources */,
+				187556F41C1F356E00175743 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187557001C1F356E00175743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1875570B1C1F356E00175743 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		187556E21C1F356E00175743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187556F11C1F356E00175743 /* ViewController.m in Sources */,
+				187556EE1C1F356E00175743 /* AppDelegate.m in Sources */,
+				187556F71C1F356E00175743 /* Record_and_Play.xcdatamodeld in Sources */,
+				187556EB1C1F356E00175743 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187556FE1C1F356E00175743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187557071C1F356E00175743 /* Record_and_PlayTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		187557091C1F356E00175743 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187557121C1F356E00175743 /* Record_and_PlayUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		187557041C1F356E00175743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187556E51C1F356E00175743 /* Record and Play */;
+			targetProxy = 187557031C1F356E00175743 /* PBXContainerItemProxy */;
+		};
+		1875570F1C1F356E00175743 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 187556E51C1F356E00175743 /* Record and Play */;
+			targetProxy = 1875570E1C1F356E00175743 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		187556F21C1F356E00175743 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187556F31C1F356E00175743 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		187556FA1C1F356E00175743 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				187556FB1C1F356E00175743 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		187557141C1F356E00175743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187557151C1F356E00175743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187557171C1F356E00175743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Record and Play/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.Record-and-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		187557181C1F356E00175743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Record and Play/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.Record-and-Play";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1875571A1C1F356E00175743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Record and PlayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.Record-and-PlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Record and Play.app/Record and Play";
+			};
+			name = Debug;
+		};
+		1875571B1C1F356E00175743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Record and PlayTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.Record-and-PlayTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Record and Play.app/Record and Play";
+			};
+			name = Release;
+		};
+		1875571D1C1F356E00175743 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Record and PlayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.Record-and-PlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Record and Play";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1875571E1C1F356E00175743 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Record and PlayUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "VS.Record-and-PlayUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Record and Play";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		187556E11C1F356D00175743 /* Build configuration list for PBXProject "Record and Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187557141C1F356E00175743 /* Debug */,
+				187557151C1F356E00175743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187557161C1F356E00175743 /* Build configuration list for PBXNativeTarget "Record and Play" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187557171C1F356E00175743 /* Debug */,
+				187557181C1F356E00175743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		187557191C1F356E00175743 /* Build configuration list for PBXNativeTarget "Record and PlayTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1875571A1C1F356E00175743 /* Debug */,
+				1875571B1C1F356E00175743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1875571C1C1F356E00175743 /* Build configuration list for PBXNativeTarget "Record and PlayUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1875571D1C1F356E00175743 /* Debug */,
+				1875571E1C1F356E00175743 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		187556F51C1F356E00175743 /* Record_and_Play.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				187556F61C1F356E00175743 /* Record_and_Play.xcdatamodel */,
+			);
+			currentVersion = 187556F61C1F356E00175743 /* Record_and_Play.xcdatamodel */;
+			path = Record_and_Play.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 187556DE1C1F356D00175743 /* Project object */;
+}
